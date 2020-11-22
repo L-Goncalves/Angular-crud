@@ -1,12 +1,6 @@
-.cdk-overlay-container {
-    position: fixed;
-    z-index: 10000;
-}
-body{
-   display: block;
-    margin: 0;
-    font-family: 'Roboto';
-}
+
+
+
 .red{
     color: rgb(227,94, 107)
 }
@@ -14,3 +8,5 @@ body{
 .v-middle{
     vertical-align: middle;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

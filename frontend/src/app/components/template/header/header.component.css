@@ -1,9 +1,9 @@
 .header{
-    display: flex !important;
+    display: flex;
     align-items: center;
     padding: 1.5rem;
     margin: 0%;
-    width: 100vh;
+
     border-bottom: 1.2px solid rgba(0, 0, 0, 0.747);
     background-color: rgb(70, 6, 143);
     color: white;
@@ -15,7 +15,9 @@
 }
 
 .header a{
-   display: flex;
+  
+   flex-direction: row;
+   flex: auto;
     align-items: center;
     text-decoration: none;
 }

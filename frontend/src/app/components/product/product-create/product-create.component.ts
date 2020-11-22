@@ -9,16 +9,16 @@ import { ProductService } from '../product.service';
 })
 export class ProductCreateComponent implements OnInit {
 
-  constructor(private productService: ProductService,
+  constructor(public productService: ProductService,
     private router: Router) { }
 
   ngOnInit(): void {
-    this.productService.showMessage('teste..')
+    this.productService.showMessage('teste..', '')
   }
 
   createProduct(): void{
 
-      this.productService.showMessage('Produto Criado!!')
+      this.productService.showMessage('Produto Criado!!', '')
     
   }
 
