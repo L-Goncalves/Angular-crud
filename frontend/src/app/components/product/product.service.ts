@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ProductService {
   
-  baseUrl = "";
+  baseUrl = "http://localhost:3001/products";
 
   constructor(public snackBar: MatSnackBar, private http: HttpClient) { }
 
