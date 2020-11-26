@@ -20,6 +20,7 @@
    flex: auto;
     align-items: center;
     text-decoration: none;
+    color: white;
 }
 
 .header .logo{

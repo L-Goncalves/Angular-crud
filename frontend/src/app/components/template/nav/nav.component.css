@@ -3,14 +3,29 @@
 .sidenav{
     background-color: #000000;
     width: 200px;
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+  
 }
 
 .sidenav a{
     color: #FFF;
+    transition: all 1s;
 }
 
+.sidenav a:hover{
+    color: rgb(252, 252, 252);
+    margin-left: 10px;
+    transition: all 1s;
+
+}
 .sidenav i{
-    padding-right: 10px;
+    padding-right: 0px;
+}
+
+.mat-drawer-inner-container{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .content{

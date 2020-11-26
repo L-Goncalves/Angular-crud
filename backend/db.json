@@ -1,34 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "caneta BIC preta",
-      "price": 5.89
-    },
-    {
-      "id": 2,
-      "name": "caneta BIC azul",
-      "price": 5.11
-    },
-    {
-      "id": 3,
-      "name": "caneta BIC vermelha",
-      "price": 5.95
-    },
-    {
       "name": "PC gaming 2020",
-      "price": "1.200,00",
-      "id": 4
-    },
-    {
-      "name": "Xbox Series X",
-      "price": "4.500",
-      "id": 5
-    },
-    {
-      "name": "PS5",
-      "price": "4.500",
-      "id": 6
+      "price": "4500",
+      "id": 1
     }
   ]
 }
