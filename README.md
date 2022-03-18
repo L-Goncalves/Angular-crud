@@ -1,5 +1,5 @@
 # Angular-crud
-I created an CRUD, it uses json server as backend and angular material on front-end
+I created an CRUD, it uses json server as a mock-backend and angular material on front-end
 
 # How to get started
 
